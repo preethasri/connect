@@ -1,6 +1,6 @@
 import {Routes,Route} from 'react-router-dom'
 import { HomePage ,LoginPage,SignUpPage} from '../Pages'
-import { PrivateRoute } from '../Components/privateRoute'
+import { PrivateRoute } from '../Components/PrivateRoute'
 import { useSelector } from 'react-redux'
 import { Navigate } from 'react-router-dom'
 import { ResetScroll } from './ResetScroll'
