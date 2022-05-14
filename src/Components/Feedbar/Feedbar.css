@@ -1,0 +1,117 @@
+.feedbar-container{
+    flex:0.5;
+    border-right: 1px solid var(--bg-color);
+    min-width: fit-content;
+    overflow-y: scroll;
+}
+.feedbar-container::-webkit-scrollbar{
+    display: none;
+}
+.feedbar-container{
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+.feedbar-header{
+    position:sticky;
+    top:0;
+    background-color: white;
+    z-index:100;
+    border:1px solid var(--bg-color);
+    padding:15px 20px;
+
+}
+.feedbar-header h2{
+    font-size:20px;
+    font-weight: 800;
+}
+
+.tweet-box img{
+    border-radius: 50%;
+}
+.tweet-box{
+    padding-bottom: 10px;
+    
+    padding-right: 10px;
+}
+
+.tweet-box form{
+    display: flex;
+    flex-direction: column;
+}
+.tweet-box-input{
+    display: flex;
+    padding:20px;
+}
+.tweet-box-input input{
+    flex:1;
+    margin-left:20px;
+    font-size: 20px;
+    border:none;
+    outline:none;
+}
+.tweet-box-tweet-btn{
+    background-color: var(--primary-background-color);
+    border:none;
+    color:white;
+    margin-top: 20px;
+    margin-left:auto;
+    border-radius: 30px;
+    width:80px;
+    height:40px;
+
+}
+#res-image:hover{
+    box-shadow: none;
+}
+.posts-avatar img{
+    padding:10px;
+
+}
+.feedbar-posts{
+    display: flex;
+    align-items: flex-start;
+    border-bottom: 1px solid var(--bg-color);
+    padding-bottom:10px;
+}
+.posts-body img{
+    border-radius: 20px;
+}
+.posts-footer{
+    display: flex;
+    justify-content: space-between;
+    margin-top:10px;
+}
+.posts-headerSpecial{
+    color:gray;
+    font-size: 12px;
+    font-weight:600;
+}
+.posts-headerText h3{
+    font-size: 15px;
+    margin-bottom: 10px;
+    
+}
+.posts-headerDescription{
+    margin-bottom:10px;
+    font-size: 15px;
+}
+.posts-body{
+    flex:1;
+    padding:10px;
+}
+@media only screen and (max-width:1200px){
+    .feedbar-container{
+        flex:0.5;
+        min-width:62%;
+    }
+    
+     
+ }
+ @media only screen and (max-width:900px){
+    .feedbar-container{
+        flex:0.5;
+        min-width:100%;
+    }
+    
+     
+ }

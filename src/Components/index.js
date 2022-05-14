@@ -1,0 +1,6 @@
+export {MyRoutes} from './MyRoutes'
+export {Aside} from './Aside/Aside'
+export {BottomNav} from './BottomNav/BottomNav'
+export {Feedbar} from './Feedbar/Feedbar'
+export {Sidebar} from './Sidebar/Sidebar'
+export {Loader} from './Loader/Loader'
