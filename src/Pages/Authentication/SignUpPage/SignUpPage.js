@@ -4,7 +4,7 @@ import { useSelector,useDispatch } from 'react-redux'
 import { useTogglePassword } from '../Hooks/TogglePassword'
 import { Link } from 'react-router-dom'
 import { signUpHandler } from '../authSlice'
-import { Loader } from '../../../Components'
+import { Loader } from "../../../Components/Loader/Loader"
 
 const SignUpPage=()=>{
     const {togglePassword,passwordToggle,confirmPasswordToggle,confirmTogglePassword}=useTogglePassword();

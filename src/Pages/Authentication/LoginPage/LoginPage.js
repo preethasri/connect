@@ -3,7 +3,7 @@ import './LoginPage.css'
 import {useSelector,useDispatch} from 'react-redux'
 import { Link } from 'react-router-dom'
 import { loginHandler } from '../authSlice'
-import { Loader } from '../../../Components'
+import { Loader } from '../../../Components/Loader/Loader'
 
 import { useTogglePassword } from '../Hooks/TogglePassword'
 const LoginPage=()=>{

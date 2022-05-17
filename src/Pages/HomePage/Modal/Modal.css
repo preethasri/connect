@@ -1,0 +1,18 @@
+.modal-container{
+    z-index:1000;
+    inset:0;
+}
+.modal-container-main{
+    background-color: white;
+}
+
+.dis-none{
+    display:none;
+}
+.dis-flex{
+    display:flex;
+}
+.tweet-btn{
+    background-color: var(--primary-background-color);
+    color:white;
+}

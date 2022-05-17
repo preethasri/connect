@@ -19,10 +19,7 @@ const Sidebar=()=>{
         <span className="material-icons">tag</span>
         <h2>Explore</h2>
         </div>
-        <div className="sidebar-items">
-        <span className="material-icons">mail</span>
-        <h2>Messages</h2>
-        </div>
+        
         <div className="sidebar-items">
         <span className="material-icons">bookmark</span>
         <h2>BookMarks</h2>
@@ -32,9 +29,10 @@ const Sidebar=()=>{
         <h2>Profile</h2>
         </div>
         <div className="sidebar-items">
-        <span className="material-icons">login</span>
-        <h2>Login</h2>
+        <span className="material-icons">logout</span>
+        <h2>Logout</h2>
         </div>
+       
 
         <button className='sidebar-tweet-btn'>
             Tweet

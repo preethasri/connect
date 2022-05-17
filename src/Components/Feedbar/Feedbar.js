@@ -7,21 +7,13 @@ const Feedbar=()=>{
             <div className="feedbar-header">
                 <h2>Home</h2>
                 </div>
-                <div className="tweet-box">
-                    <form>
-                        <div className="tweet-box-input">
-                        <img src="./assets/images/avatar1.jpg" alt="" className="normal-img1" />
-                        <input type="text" placeholder="what's happening?"></input>
-                        </div>
+                <div>
+          <textarea
+            className="w-full py-4 px-3  focus:outline-none border-y-2"
+            placeholder="What's on your mind..."
             
-
-                        
-                        <button className="tweet-box-tweet-btn">Tweet</button>
-
-                    </form>
-
-                </div>
-
+          />
+        </div>
             
             <div className="feedbar-posts">
             <div className="posts-avatar">
